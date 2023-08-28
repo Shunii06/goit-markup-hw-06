@@ -15,10 +15,10 @@
 }
 body {
     font-family: 'Roboto';
+    font-size: 16px;
     color: #2E2F42;
     background-color: #fff;
-    font-size: 16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.32px;
 }
 
 h1,
@@ -86,8 +86,8 @@ a {
 
 .allignement {
     display: flex;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);
+    border-bottom: 1px solid var(--cornflower);
+    background: var(--white,);
     width: 1440px;
 }
 
@@ -120,11 +120,9 @@ a {
     position: relative;
     color: var(--navyblue, #2E2F42);
     font-family: Roboto;
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 .onsite-navi:hover,
 .onsite-navi:focus,
@@ -156,11 +154,9 @@ a {
 }
 .contactinfo {
     color: var(--slate, #434455);
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 .contactinfo:hover,
 .contactinfo:focus {
@@ -169,7 +165,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
     transition: var(--transition);
 }
 
@@ -235,11 +230,9 @@ a {
 }
 .main-site-feature {
     max-width: 264px;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 .main-site-feature-topic {
     color: var(--navyblue, #2E2F42);
@@ -252,11 +245,9 @@ a {
 .main-site-feature-descr {
     font-family: Roboto;
     max-width: 264px;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
     margin-bottom: 0;
 }
 
@@ -304,19 +295,17 @@ a {
 .card-content .team-img-titles {
     color: var(--navyblue, #2E2F42);
     text-align: center;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2; 
-        letter-spacing: 0.4px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
 }
 .card-content .team-img-description {
     text-align: center;
     color: var(--slate, #434455);
-        font-size: 16px;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+    font-style: normal;
+    line-height: 1.5;
 }
 .svg-cards-row {
     display: flex;
@@ -372,7 +361,6 @@ display: flex;
     color: var(--iris, #4D5AE5);
     font-family: 'Roboto';
     text-align: center;
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
@@ -436,10 +424,8 @@ display: flex;
     translate: 0 100% 0;
     transition: translate 250ms;
     padding: 40px 32px 162px;
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 .portfolio-cards-style:hover .portfolio-card-image {
     translate: 0;
@@ -472,11 +458,9 @@ color: var(--navyblue, #2E2F42);
 .card-content-portfolio-description {
 color: var(--slate, #434455);
     font-family: Roboto;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 
 
@@ -519,11 +503,9 @@ color: var(--slate, #434455);
     color: #F4F4FD;
     max-width: 264px;
     font-family: 'Roboto';
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 
 .footer-box-social {
@@ -541,7 +523,7 @@ color: var(--slate, #434455);
     justify-content: space-between;
     gap: 16px;
     width: 208px;
-    padding: 16px 692px 132px 0;
+    padding: 16px 0 132px;
     margin: 0;
 }
 
@@ -553,6 +535,46 @@ color: var(--slate, #434455);
     fill: var(--green);
     transition: var(--transition);
 }
+
+.newsletter-box {
+    color: var(--white);
+    padding: 100px 0 0 80px;
+}
+.newsletter-text {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.newsletter-email-input {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-button {
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+        color: var(--white);
+    display: inline-flex;
+    padding: 8px 24px;
+    gap: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--iris);
+}
+.footer-subscribe-button-arrow {
+    fill: var(--white);
+}
+
+
+
+
+
+
+
+
 
 
 .backdrop {
