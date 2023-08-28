@@ -19,6 +19,7 @@ body {
     color: #2E2F42;
     background-color: #fff;
     letter-spacing: 0.32px;
+    line-height: 1.5;
 }
 
 h1,
@@ -53,7 +54,7 @@ a {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0px 15px;
     margin: 0 auto;
 }
@@ -88,7 +89,7 @@ a {
     display: flex;
     border-bottom: 1px solid var(--cornflower);
     background: var(--white,);
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .header-box {
@@ -102,7 +103,7 @@ a {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 116.667%;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
@@ -122,7 +123,6 @@ a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
 }
 .onsite-navi:hover,
 .onsite-navi:focus,
@@ -146,7 +146,7 @@ a {
     border-radius: 2px;
 }
 .adress-margin {
-    margin-left: auto;
+    margin-left: 332px;
 }
 .adress-box {
     display: flex;
@@ -156,7 +156,6 @@ a {
     color: var(--slate, #434455);
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
 }
 .contactinfo:hover,
 .contactinfo:focus {
@@ -164,7 +163,6 @@ a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
     transition: var(--transition);
 }
 
@@ -181,7 +179,7 @@ a {
     background-position: center;
     background-size: cover;
     margin: auto;
-    width: 1440px;
+    max-width: 1440px;
 
 
 }
@@ -205,7 +203,6 @@ a {
 .hero-button {
     color: var(--white, #FFF);
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.64px;
     padding: 16px 32px;
     border: none;
@@ -232,7 +229,6 @@ a {
     max-width: 264px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
 }
 .main-site-feature-topic {
     color: var(--navyblue, #2E2F42);
@@ -247,7 +243,6 @@ a {
     max-width: 264px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
     margin-bottom: 0;
 }
 
@@ -273,7 +268,7 @@ a {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 1440px;
+    max-width: 1440px;
 }
 .team {
     display: flex;
@@ -289,6 +284,7 @@ a {
 .card-content {
     padding: 32px 0 32px 0;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 8px;
 }
@@ -305,12 +301,12 @@ a {
     text-align: center;
     color: var(--slate, #434455);
     font-style: normal;
-    line-height: 1.5;
 }
 .svg-cards-row {
     display: flex;
     justify-content: space-between;
     max-width: 232px;
+    gap: 24px;
 }
 
 .bg-cards-svg {
@@ -363,7 +359,6 @@ display: flex;
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
     display: flex;
@@ -425,7 +420,6 @@ display: flex;
     transition: translate 250ms;
     padding: 40px 32px 162px;
     font-weight: 400;
-    line-height: 1.5;
 }
 .portfolio-cards-style:hover .portfolio-card-image {
     translate: 0;
@@ -460,7 +454,6 @@ color: var(--slate, #434455);
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
 }
 
 
@@ -470,7 +463,7 @@ color: var(--slate, #434455);
     display: flex;
     background: var(--navyblue, #2E2F42);
     margin: auto;
-    width: 1440px;
+    max-width: 1440px;
 }
 .footer-box-text {
     display: block;
@@ -505,7 +498,6 @@ color: var(--slate, #434455);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
 }
 
 .footer-box-social {
@@ -515,14 +507,13 @@ color: var(--slate, #434455);
 .footer-socials {
     color: var(--white, #FFF);
     font-weight: 500;
-    line-height: 1.5;
     padding-left: 0;
 }
 .svg-bottom-row {
     display: flex;
     justify-content: space-between;
     gap: 16px;
-    width: 208px;
+    max-width: 208px;
     padding: 16px 0 132px;
     margin: 0;
 }
@@ -543,7 +534,6 @@ color: var(--slate, #434455);
 .newsletter-text {
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
 }
 .newsletter-email-input {
     padding-top: 16px;
@@ -554,7 +544,6 @@ color: var(--slate, #434455);
 .footer-button {
         font-weight: 500;
         font-style: normal;
-        line-height: 1.5;
         letter-spacing: 0.64px;
         color: var(--white);
     display: inline-flex;
