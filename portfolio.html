@@ -281,23 +281,28 @@
         </ul>
       </div>
       <div class="newsletter-box">
-        <p class="newsletter-text">Subscribe</p>
-        <ul class="newsletter-email-input">
-          <li>1</li>
-          <li>
-            <div class="button-subscribe">
-              <button type="submit" class="footer-button">
-                Subscribe<svg
-                  class="footer-subscribe-button-arrow"
-                  width="24px"
-                  height="24px"
-                >
-                  <use href="./images/icons.svg#icon-sendarrow"></use>
-                </svg>
-              </button>
-            </div>
-          </li>
-        </ul>
+        <form>
+          <p class="newsletter-text">Subscribe</p>
+          <label for="newsletter-email" class="newsletter-email-label">
+            <input
+              class="newsletter-email-input"
+              type="email"
+              name="email"
+              id="newsletter-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-button">
+              Subscribe
+              <svg
+                class="footer-subscribe-button-arrow"
+                width="24px"
+                height="24px"
+              >
+                <use href="./images/icons.svg#icon-sendarrow"></use>
+              </svg>
+            </button>
+          </label>
+        </form>
       </div>
     </footer>
   </body>
