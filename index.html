@@ -388,6 +388,8 @@
               name="email"
               id="newsletter-email"
               placeholder="E-mail"
+              required
+              autocomplete="on"
             />
             <button type="submit" class="footer-button">
               Subscribe
@@ -413,11 +415,7 @@
         <p class="modal-header-text">
           Leave your contacts and we will call you back
         </p>
-        <form
-          name="place-order"
-          class="container modal-inputs-wrapper"
-          autocomplete="on"
-        >
+        <form name="place-order" class="modal-inputs-wrapper" autocomplete="on">
           <label class="labels-wrappers" for="form-username">
             Name
             <input
@@ -425,7 +423,9 @@
               type="text"
               name="username"
               id="form-username"
-              required /><svg class="modal-icon" width="18px" height="18px">
+              required
+              autocomplete="on" />
+            <svg class="modal-icon" width="18px" height="18px">
               <use href="./images/icons.svg#icon-person-modal"></use></svg
           ></label>
           <label class="labels-wrappers" for="form-userphone-number"
@@ -435,7 +435,8 @@
               type="number"
               name="userphone-number"
               id="form-userphone-number"
-              required /><svg class="modal-icon" width="18px" height="18px">
+              required />
+            <svg class="modal-icon" width="18px" height="18px">
               <use href="./images/icons.svg#icon-phone-modal"></use></svg
           ></label>
           <label class="labels-wrappers" for="form-useremail"
@@ -445,7 +446,8 @@
               type="email"
               name="useremail"
               id="form-useremail"
-              required /><svg class="modal-icon" width="18px" height="18px">
+              required />
+            <svg class="modal-icon" width="18px" height="18px">
               <use href="./images/icons.svg#icon-envelope-modal"></use></svg
           ></label>
           <label class="labels-wrappers" for="form-usercomment"
@@ -457,31 +459,32 @@
               rows="6"
             ></textarea>
           </label>
+
+          <div class="terms-section">
+            <input
+              name="user-checked"
+              id="user-checked"
+              type="checkbox"
+              value="true"
+              required
+              class="modal-check visually-hidden"
+            /><label for="user-checked" class="modal-check-text">
+              <span class="modal-check-span">
+                <svg class="checkbox-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-Property-1click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the<a class="link" href="#"
+                >Privacy Policy</a
+              >
+            </label>
+          </div>
+          <div class="modal-submit">
+            <button type="submit" class="modal-header-button" required>
+              Send
+            </button>
+          </div>
         </form>
-        <div class="terms-section">
-          <input
-            name="user-checked"
-            id="user-checked"
-            type="checkbox"
-            value="true"
-            required=""
-            class="modal-check visually-hidden"
-          /><label for="user-checked" class="modal-check-text">
-            <span class="modal-check-span">
-              <svg class="checkbox-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-Property-1click"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the<a class="link" href="#"
-              >Privacy Policy</a
-            >
-          </label>
-        </div>
-        <div class="modal-submit">
-          <button type="submit" class="modal-header-button">
-            <span class="send-btn-txt">Send</span>
-          </button>
-        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
