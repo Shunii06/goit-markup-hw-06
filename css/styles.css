@@ -701,7 +701,6 @@ textarea {
     line-height: 1;
     letter-spacing: 0.48px;
     display: inline-flex;
-    font-style: normal;
     font-weight: 400;
     align-items: center;
     gap: 8px;
@@ -758,14 +757,9 @@ transition: var(--tr-duration) var(--tr-function);    }
     width: 169px;
     padding: 16px 32px;
     border: none;
-            font-weight: 500;
             letter-spacing: 0.64px;
             text-align: center;
             color: var(--white);
-}
-
-.send-btn-txt {
-
 }
 
 .modal-submit{
